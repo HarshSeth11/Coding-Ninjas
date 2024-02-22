@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-rGq1t3JvFh1f1mH28Fxg5XWYqQGYDzZdUFXAbYtrZ2VwbGRj0TN/0Rylq5H62J3K" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a4ba411fb8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" style="padding-top: 1.3em;">
+        <h3 class="header">Ninja Resturant</h3>
+        <!-- Navbar toggler for mobile view -->
+        <button class="navbar-toggler"><i class="fa-solid fa-bars"></i></button>
+        
+        <!-- Navigation links -->
+        <div class="links hide">
+            <a href="#" class="all nav-link">All</a>
+            <a href="#" class="starters nav-link">Starters</a>
+            <a href="#" class="mains nav-link">Mains</a>
+            <a href="#" class="desserts nav-link">Desserts</a>
+            <a href="#" class="beverages nav-link">Beverages</a>
+            <!-- ... (at least 5 nav-links as per test cases) -->
+            <a href="#" class="nav-link" data-filter="starters"></a>
+        </div>
+        
+        <!-- Search input -->
+        <input placeholder="Search..." type="text" class="hide" id="search-input">
+        
+    </nav>
+
+    <!-- <div class="video-container">
+        <video autoplay controls="false" class="video" src="https://files.codingninjas.in/restaurant-1706081051.mp4"></video>
+    </div> -->
+
+
+    <!-- Menu items -->
+    <!-- Items will be inserted here by JavaScript -->
+    <div class="root d-flex flex-wrap mx-5 my-2"></div>
+
+    <!-- ... (any other required content) -->
+</body>
+<script src="app.js"></script>
+</html>
